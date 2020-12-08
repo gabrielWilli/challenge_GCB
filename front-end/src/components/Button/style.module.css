@@ -1,0 +1,13 @@
+.button {
+  border       : none;
+  display      : inline-flex;
+  align-items  : center;
+  padding      : 7px 5px;
+  border-radius: 10px;
+  cursor       : pointer;
+}
+
+.button img {
+  width       : 25px;
+  margin-right: 5px;
+}

@@ -1,0 +1,23 @@
+.main {
+  width     : 100%;
+  height    : 100%;
+  text-align: center;
+  margin    : 250px auto 250px auto;
+}
+
+.main h2 {
+  margin-top: 15px;
+  animation : anime 4s ease-in infinite;
+}
+
+@keyframes anime {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
